@@ -1,5 +1,7 @@
 # Web-Chat-Application
 
+Website not hosted yet
+
 ## Screenshots
 
 ![Screenshot (751)](https://user-images.githubusercontent.com/80591258/162801220-5adb7a6a-eb17-4325-949d-b7756e0d9900.png)
