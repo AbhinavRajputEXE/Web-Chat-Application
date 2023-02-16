@@ -1,6 +1,23 @@
+
 # Web-Chat-Application
 
-Website not hosted yet
+This is a Web chat app called Anonymous Chat made using Node.js and socket.io
+
+## Try it
+
+You can try it [here](https://anonymous-chat-exe.vercel.app/).
+
+> NOTE: Web-app is still in beta and there are few bugs.
+
+
+## How to use
+
+Just go to the link and it'll ask for your name, enter your name and ask your friend to go to the same link and repeat the same steps and now you both can talk to each other on Anonymous chat. ENJOY!!!
+
+> NOTE: Anonymous Chat's backend is hosted on free tier of render web services
+> hence it may not work all the time. Although it works fine on the
+> localhost, so in order to try it on local machine follow the following
+> steps
 
 ## Screenshots
 
@@ -10,4 +27,5 @@ Website not hosted yet
 ### To start the application
 - Pre req: Node.js and nodemon(optional)
 
-To sart the app run `npm init` inside nodeServer Folder and then nodemon `index.js`
+To sart the app run `npm install` inside nodeServer Folder to install the dependencies and then run `nodemon index.js` and open the index.html and you are good to go.
+
