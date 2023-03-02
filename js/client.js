@@ -38,3 +38,10 @@ socket.on('receive',data =>{
 socket.on('left',name =>{
     append(`${name} left the chat`,'center')
 })
+
+const chk = document.getElementById('chk');
+
+chk.addEventListener('change', () => {
+  document.getElementById('bck').classList.toggle('black');
+  document.getElementById('cont').classList.toggle('black');
+});

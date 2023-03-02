@@ -15,30 +15,44 @@
     <!-- <video autoplay muted loop id="myVideo">
         <source src="images/bg.mp4" type="video/mp4">
     </video> -->
-    <div class="background">
+    <div class="background" id="bck">
         <div class="cube"></div>
         <div class="cube"></div>
         <div class="cube"></div>
         <div class="cube"></div>
-       <div class="cube"></div>
+        <div class="cube"></div>
      
-    <nav>
-        <img class="logo" src="images/chat.png" alt="" srcset="">
-        <!-- <h1 class="neonText">Anonymous Chat</h1> -->
-        <div id="glitch" title="Anonymous Chat">Anonymous Chat</div>
-    </nav>
-    <div class="container">
-        <!-- <div class="message right"></div>
-        <div class="message left"></div>
-        <div class="message center"></div> -->
-    </div>
+        <div class="dark">
+            <div>
+                <input type="checkbox" class="checkbox" id="chk" />
+                <label class="label" for="chk">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+            </label>
+            </div>
+        </div>
+        <nav>
+            <img class="logo" src="images/chat.png" alt="" srcset="">
+            <!-- <h1 class="neonText">Anonymous Chat</h1> -->
+            <div id="glitch" title="Anonymous Chat">Anonymous Chat</div>
+        </nav>
+        
+        <div class="container" id="cont">
+            <!-- <div class="message right"></div>
+            <div class="message left"></div>
+            <div class="message center"></div> -->
+        </div>
 
-    <div class="send">
-        <form action="#" id="send-container">
-            <input type="text" name="messageInp" id="messageInp" placeholder="Enter message">
-            <button class="btn" type="submit"><i class="fa fa-angle-double-right"></i></button>
-        </form>
+        <div class="send">
+            <form action="#" id="send-container">
+                <input type="text" name="messageInp" id="messageInp" placeholder="Enter message">
+                <button class="btn" type="submit"><i class="fa fa-angle-double-right"></i></button>
+            </form>
+        </div>
+        <div class="AIbutton">
+            <a href="https://chat-exe.vercel.app/" target="_blank">Chat with AI ►</a>
+        </div>
     </div>
-</div>
 </body>
 </html>
